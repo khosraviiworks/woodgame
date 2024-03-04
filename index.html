@@ -10,7 +10,7 @@
 <body>
     <div id="transparent-overlay"></div>
     <div class="search-box-click">
-        <input type="search" name="search" id="search-box-click-input" placeholder="چیزی تایپ کنید">
+        <input type="search" name="search" id="search-box-click-input" placeholder="type something to search">
     </div>
     <nav class="mobile-nav">
             <div class="close-mobile-nav d-flex justify-content-between w-100 align-items-center px-3">
@@ -24,7 +24,7 @@
         <div class="nav-content">
             <ul>
                 <li>home</li>
-                <li>shop</li>
+                <a href="shop.html"><li>shop</li></a>
                 <li>blog</li>
                 <li>about</li>
             </ul>
@@ -41,7 +41,7 @@
                 <div class="col-lg-4 d-lg-flex d-sm-none header-menu">
                     <ul class="d-flex">
                         <a href="#"><li>home</li></a>
-                        <a href="#"><li>shop</li></a>
+                        <a href="shop.html"><li>shop</li></a>
                         <a href="#"><li>blog</li></a>
                         <a href="#"><li>about</li></a>
                     </ul>
@@ -69,7 +69,29 @@
             </div>
             </div>
         </header>
-
+        <main>
+            <div class="first-section d-flex flex-column mt-3">
+                <div class="first-section-top d-flex flex-wrap justify-content-around">
+                    <div class="first-section-top-img d-flex justify-content-center col-lg-6 col-md-6 col-sm-12  my-sm-3">
+                        <img src="img/1.png" alt="">
+                    </div>
+                    <div id="sec-pic" class="first-section-top-img d-flex justify-content-center col-lg-6 col-md-6 col-sm-12 my-sm-3">
+                        <img src="img/2.png" alt="">
+                    </div>
+                </div>
+                <div class="first-section-bottom d-flex flex-lg-row flex-md-row flex-sm-column">
+                    <div class="first-section-bottom-img d-flex justify-content-center col-lg-4 col-md-4 col-sm-12 my-sm-3">
+                        <img src="img/1.png" alt="">
+                    </div>
+                    <div class="first-section-bottom-img d-flex justify-content-center col-lg-4 col-md-4 col-sm-12 my-sm-3">
+                        <img src="img/2.png" alt="">
+                    </div>
+                    <div class="first-section-bottom-img d-flex justify-content-center col-lg-4 col-md-4 col-sm-12 my-sm-3">
+                        <img src="img/1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
     <script src="assets/js/main.js"></script>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>

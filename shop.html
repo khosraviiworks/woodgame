@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css">
+    <title>shop page</title>
+</head>
+<body>
+    <div id="transparent-overlay"></div>
+    <div class="search-box-click">
+        <input type="search" name="search" id="search-box-click-input" placeholder="type something to search">
+    </div>
+    <nav class="mobile-nav">
+            <div class="close-mobile-nav d-flex justify-content-between w-100 align-items-center px-3">
+                <div class="close-mobile-nav-img">
+                    <img src="img/woodgame-high-resolution-logo-black-transparent.png" width="100px" alt="">
+                </div>
+                <div class="close-mobile-nav-clos-icon">
+                    <svg class="" fill="red" xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </div>
+            </div>
+        <div class="nav-content">
+            <ul>
+                <li>home</li>
+                <a href="shop.html"><li>shop</li></a>
+                <li>blog</li>
+                <li>about</li>
+            </ul>
+        </div>
+    </nav>
+    <header class="w-100">
+            <div class="header-content container">
+                <div class="row">
+                <div class="col-lg-4 col-sm-6 header-logo-search d-flex align-center">
+                    <div class="logo-header">
+                        <img src="img/woodgame-high-resolution-logo-black-transparent.png" width="150px" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 d-lg-flex d-sm-none header-menu">
+                    <ul class="d-flex">
+                        <a href="index.html"><li>home</li></a>
+                        <a href="#" class="active"><li>shop</li></a>
+                        <a href="#"><li>blog</li></a>
+                        <a href="#"><li>about</li></a>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6 header-user d-flex align-items-center justify-content-end">
+                    <div class="btns-header">
+                          <svg class="search-header" width="40px" height="40px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#000">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                        </svg>
+                    </div>
+                    <div class="ham-menu d-sm-block d-lg-none d-md-block">
+                        <svg id="ham-header-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="35px" height="40px">
+                            <path d="M56 48c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 48 54.798 48 56 48zM56 32c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 32 54.798 32 56 32zM56 16c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 16 54.798 16 56 16z"/></svg>
+                    </div>
+                    <div class="user-profile">
+                        <img src="img/user.jpg" id="user-img" width="45" alt="user-img">
+                        <div class="dropdown-profile-content">
+                            <ul>
+                                <a href="#"><li>card</li></a>
+                                <a href="#"><li>setting</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </header>
+
+    <main class="d-flex">
+        <div class="filters col-lg-2 d-lg-flex d-md-none d-sm-none h-1">
+                <div class="filter-content mt-4 fi container">
+                    <div class="filter-box px-4 py-3 border-bottom">
+                        <div class="filter-box-title">
+                            <h5>categori</h5>
+                        </div>
+                        <div class="">
+                            <button class="rate-filter-btn border-0 my-1" type="submit" data-rate="one">
+                                <span class="fa fa-star checked"></span>
+                            </button>
+                        </div>
+                        <div class="">
+                            <button class="rate-filter-btn border-0 my-1" type="submit" data-rate="two">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </button>
+                        </div>
+                        <div class="">
+                            <button class="rate-filter-btn border-0 my-1" type="submit" data-rate="three">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </button>
+                        </div>
+                        <div class="">
+                            <button class="rate-filter-btn border-0 my-1" type="submit" data-rate="four">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </button>
+                        </div>
+                        <div class="">
+                            <button class="rate-filter-btn border-0 my-1" type="submit" data-rate="five">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="filter-box px-4 py-3 border-bottom">
+                        <div class="filter-box-title">
+                            <h5>color</h5>
+                        </div>
+                        <div class="filter-btn">
+                            <button class="color-filter-btn border-0 rounded my-1" data-color="all" type="submit">all</button>
+                        </div>
+                        <div class="filter-btn">
+                            <button class="color-filter-btn border-0 rounded my-1" data-color="dark" type="submit">dark</button>
+                        </div>
+                        <div class="filter-btn">
+                            <button class="color-filter-btn border-0 rounded my-1" data-color="white" type="submit">white</button>
+                        </div>
+                        <div class="filter-btn">
+                            <button class="color-filter-btn border-0 rounded my-1" data-color="brown" type="submit">brown</button>
+                        </div>
+                        <div class="filter-btn">
+                            <button class="color-filter-btn border-0 rounded my-1" data-color="dark-brown" type="submit">dark-brown</button>
+                        </div>
+                    </div>
+                    <div class="filter-box px-4 py-3">
+                        <div class="filter-box-title">
+                            <h5>price</h5>
+                        </div>
+                        <div>
+                        <div class="col-12">
+                                <label>Min</label>
+                                <input type="number" class="form-control" id="input-min-price" placeholder="$0">
+                        </div>
+                        <div class="col-12">
+                            <label>Max</label>
+                            <input type="number" class="form-control" id="input-max-price" placeholder="$100">
+                        </div>
+                        </div>
+                        <button type="submit" id="calc-price" class="mt-3 rounded-pill border border-0 bg-warning p-2">run</button>
+                    </div>
+                </div>
+        </div>
+
+        <div class="product-box col-lg-10 h-auto col-sm-12 py-lg-3">
+            <div class="container">
+            <div class="sort-box d-flex align-items-center">
+                    <p class="px-3 h5">Sort by :</p>
+                        <select class="form-select" id="">
+                          <option selected>Default</option>
+                          <option value="1">Papular</option>
+                          <option value="2">Price</option>
+                        </select>
+                </div>
+                <div class="products">
+                <div class="product-box row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
+                            <div class="col product" data-color="brown" data-rate="one">
+                            <div class="card h-100">
+                                <img src="img/11.webp" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="title-card">
+                                        <h5>backgommon</h5>
+                                    </div>
+                                    <div class="star-price-card d-flex justify-content-between align-items-center">
+                                        <div class="price-card">
+                                            <span class="product-price h5">2$</span>
+                                        </div>
+                                        <div class="rate-card">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col product" data-color="brown" data-rate="two">
+                            <div class="card h-100">
+                              <img src="img/22.webp" class="card-img-top" alt="...">
+                              <div class="card-body d-flex flex-column justify-content-between">
+                                  <div class="title-card">
+                                      <h5>backgommon</h5>
+                                  </div>
+                                  <div class="star-price-card d-flex justify-content-between align-items-center">
+                                      <div class="price-card">
+                                          <span class="product-price h5">4$</span>
+                                      </div>
+                                      <div class="rate-card">
+                                          <span class="star fa fa-star checked"></span>
+                                          <span class="star fa fa-star checked"></span>
+                                          <span class="star fa fa-star "></span>
+                                          <span class="star fa fa-star"></span>
+                                          <span class="star fa fa-star"></span>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="col product" data-color="brown" data-rate="five">
+                            <div class="card h-100">
+                              <img src="img/87878.jpg" class="card-img-top" alt="...">
+                              <div class="card-body d-flex flex-column justify-content-between">
+                                  <div class="title-card">
+                                      <h5>backgommon</h5>
+                                  </div>
+                                  <div class="star-price-card d-flex justify-content-between align-items-center">
+                                      <div class="price-card">
+                                          <span class="product-price h5">8$</span>
+                                      </div>
+                                      <div class="rate-card">
+                                          <span class="star fa fa-star checked"></span>
+                                          <span class="star fa fa-star checked"></span>
+                                          <span class="star fa fa-star checked"></span>
+                                          <span class="star fa fa-star checked"></span>
+                                          <span class="star fa fa-star checked"></span>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="col product" data-color="brown" data-rate="one">
+                            <div class="card h-100">
+                              <img src="img/44.webp" class="card-img-top" alt="...">
+                              <div class="card-body d-flex flex-column justify-content-between">
+                                  <div class="title-card">
+                                      <h5>backgommon</h5>
+                                  </div>
+                                  <div class="star-price-card d-flex justify-content-between align-items-center">
+                                      <div class="price-card">
+                                          <span class="product-price h5">15$</span>
+                                      </div>
+                                      <div class="rate-card">
+                                          <span class="fa fa-star checked"></span>
+                                          <span class="fa fa-star"></span>
+                                          <span class="fa fa-star"></span>
+                                          <span class="fa fa-star"></span>
+                                          <span class="fa fa-star"></span>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="col product" data-color="white" data-rate="three">
+                                <div class="card h-100">
+                                <img src="img/66.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="title-card">
+                                        <h5>backgommon</h5>
+                                    </div>
+                                    <div class="star-price-card d-flex justify-content-between align-items-center">
+                                        <div class="price-card">
+                                            <span class="product-price h5">18$</span>
+                                        </div>
+                                        <div class="rate-card">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col product" data-color="dark-brown" data-rate="two">
+                                <div class="card h-100">
+                                <img src="img/77.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="title-card">
+                                        <h5>backgommon</h5>
+                                    </div>
+                                    <div class="star-price-card d-flex justify-content-between align-items-center">
+                                        <div class="price-card">
+                                            <span class="product-price h5">20$</span>
+                                        </div>
+                                        <div class="rate-card">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col product" data-color="dark" data-rate="four">
+                                <div class="card h-100">
+                                <img src="img/88.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="title-card">
+                                        <h5>backgommon</h5>
+                                    </div>
+                                    <div class="star-price-card d-flex justify-content-between align-items-center">
+                                        <div class="price-card">
+                                            <span class="product-price h5">120$</span>
+                                        </div>
+                                        <div class="rate-card">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col product" data-color="brown" data-rate="three">
+                                <div class="card h-100">
+                                <img src="img/99.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="title-card">
+                                        <h5>backgommon</h5>
+                                    </div>
+                                    <div class="star-price-card d-flex justify-content-between align-items-center">
+                                        <div class="price-card">
+                                            <span class="product-price h5">180$</span>
+                                        </div>
+                                        <div class="rate-card">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col product" data-color="dark-brown" data-rate="four">
+                                <div class="card h-100">
+                                <img src="img/41414141.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="title-card">
+                                        <h5>backgommon</h5>
+                                    </div>
+                                    <div class="star-price-card d-flex justify-content-between align-items-center">
+                                        <div class="price-card">
+                                            <span class="product-price h5">300$</span>
+                                        </div>
+                                        <div class="rate-card">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
